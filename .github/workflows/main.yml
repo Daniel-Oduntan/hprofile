@@ -1,0 +1,9 @@
+name : my workflow
+on: workflow_dispatch
+jobs:
+  Testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First workflow
+        run: echo "I will get a job this month'
+       
