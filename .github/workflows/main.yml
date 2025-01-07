@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: First workflow
-        run: echo "I will get a job this month'
+        run: echo "I will get a job this month"
        
