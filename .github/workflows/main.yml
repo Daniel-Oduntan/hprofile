@@ -50,6 +50,7 @@ jobs:
 
   BUILD_AND_RELEASE:
     runs-on: ubuntu-latest
+    needs: Testing
     steps:
       - name: code checkout
         uses: actions/checkout@v4
