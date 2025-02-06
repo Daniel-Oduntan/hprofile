@@ -82,7 +82,7 @@ jobs:
 
   Deploy:
     runs-on: ubuntu-latest
-    needs: TBUILD_AND_RELEASE
+    needs: BUILD_AND_RELEASE
     steps:
       - name: code checkout
         uses: actions/checkout@v4
